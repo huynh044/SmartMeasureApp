@@ -1,0 +1,19 @@
+# 1. Bỏ qua môi trường ảo (Nơi chứa PyTorch nặng nề)
+env/
+venv/
+.conda/
+__pycache__/
+*.pyc
+
+2. Bỏ qua file Build EXE (Nặng, có thể build lại được)
+build/
+dist/
+*.spec
+
+# 3. Bỏ qua các file hệ thống/IDE
+.vscode/
+.idea/
+.DS_Store
+
+# 4. Bỏ qua file model
+# assets/models/*.pt

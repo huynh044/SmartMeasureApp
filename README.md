@@ -1,4 +1,6 @@
-![alt text](/desktop/assets/icons/logo.ico)
+<p align="center">
+  <img src="desktop/assets/icons/logo.ico" alt="alt text" />
+</p>
 
 **Project Overview**
 - **Mô tả:** Ứng dụng desktop giúp đo các hình dạng trong ảnh bằng sức mạnh AI. Hỗ trợ nhập ảnh, vẽ vùng đo, và xuất kết quả đo.

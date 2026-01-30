@@ -23,7 +23,7 @@ Tạo môi trường (sử dụng `env.yml` có sẵn):
 
 ```powershell
 conda env create -f desktop/env.yml
-conda activate measureapp
+conda activate smart_measure_cpu
 ```
 
 **Chạy ứng dụng (Desktop)**

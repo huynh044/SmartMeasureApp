@@ -3,7 +3,7 @@
 **Project Overview**
 - **Mô tả:** Ứng dụng desktop giúp đo các hình dạng trong ảnh bằng sức mạnh AI. Hỗ trợ nhập ảnh, vẽ vùng đo, và xuất kết quả đo.
 - **Mục đích**: Hỗ trợ các ngành cần tính diện tích các hình phức tạp, không có hình dạng rõ ràng, các mảnh đất, các vật thể 2D, ...
-- **Công thức tính toán**: Dự án sử dụng cách tính diện tích bằng cách quy đổi giữa điểm ảnh (pixel)/số liệu thật, bằng cách này chúng ta có thể tính diện tích của vạt thể rất đơn giản
+- **Công thức tính toán**: Dự án sử dụng cách tính diện tích bằng cách quy đổi giữa điểm ảnh (pixel)/số liệu thật, bằng cách này chúng ta có thể tính diện tích của vật thể rất đơn giản
 
 **Features**
 - **Đo tự động:** Phát hiện và đo kích thước của các hình dạng cơ bản và phức tạp.

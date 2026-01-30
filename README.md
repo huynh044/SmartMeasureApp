@@ -7,37 +7,16 @@
 - **Mục đích**: Hỗ trợ các ngành cần tính diện tích các hình phức tạp, không có hình dạng rõ ràng, các mảnh đất, các vật thể 2D, ...
 - **Công thức tính toán**: Dự án sử dụng cách tính diện tích bằng cách quy đổi giữa điểm ảnh (pixel)/số liệu thật, bằng cách này chúng ta có thể tính diện tích của vật thể rất đơn giản
 
-**Features**
-- **Đo tự động:** Phát hiện và đo kích thước của các hình dạng cơ bản và phức tạp.
-- **Chế độ thủ công:** Cho phép người dùng chỉnh sửa vùng đo bằng công cụ vẽ.
-- **Xuất kết quả:** Lưu ảnh kết quả và/hoặc xuất số liệu đo.
-- **Mô hình nội bộ:** Sử dụng mô hình có sẵn trong `desktop/assets/models` để xử lý.
-
-**Yêu cầu**
-- Python 3.10+ (khuyến nghị).
-- Conda cài môi trường.
-- Tài nguyên mô hình: [desktop/assets/models/mobile_sam.pt](desktop/assets/models/mobile_sam.pt).
-
 **Cài đặt**
-Tạo môi trường (sử dụng `env.yml` có sẵn):
-
 ```powershell
 conda env create -f desktop/env.yml
 conda activate smart_measure_cpu
 ```
 
 **Chạy ứng dụng (Desktop)**
-- Từ thư mục gốc của repository, chạy:
-
 ```powershell
 python desktop/main.py
 ```
-
-**Cấu trúc chính**
-- **desktop/**: Ứng dụng desktop chính (giao diện, engine, assets).
-- **desktop/src/**: Mã nguồn Python cho GUI và logic (ví dụ: `desktop/src/gui`, `desktop/src/engine`).
-- **desktop/assets/**: Fonts, icons, models (ví dụ: [desktop/assets/models](desktop/assets/models)).
-- **website/**: Phiên bản web của ứng dụng (backend + frontend).
 
 **Ghi chú về mô hình**
 - Mô hình chính: [desktop/assets/models/mobile_sam.pt](desktop/assets/models/mobile_sam.pt). Đặt mô hình này vào đúng thư mục nếu cần cập nhật.

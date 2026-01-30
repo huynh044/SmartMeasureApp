@@ -13,7 +13,7 @@
 
 **Yêu cầu**
 - Python 3.10+ (khuyến nghị).
-- Conda (tùy chọn) hoặc pip để cài môi trường.
+- Conda cài môi trường.
 - Tài nguyên mô hình: [desktop/assets/models/mobile_sam.pt](desktop/assets/models/mobile_sam.pt).
 
 **Cài đặt**

@@ -38,18 +38,16 @@ python desktop/main.py
 **Ghi chú về mô hình**
 - Mô hình chính: [desktop/assets/models/mobile_sam.pt](desktop/assets/models/mobile_sam.pt). Đặt mô hình này vào đúng thư mục nếu cần cập nhật.
 
-**Phát triển & Debug**
-- Chạy từ IDE (VS Code) với môi trường đã kích hoạt.
-- Các thay đổi liên quan GUI nằm trong [desktop/src/gui](desktop/src/gui).
-
-**Đóng góp**
-- Mọi đóng góp xin mở pull request hoặc tạo issue mô tả rõ ràng tính năng/sửa lỗi.
-
-**License**
-- Vui lòng kiểm tra file LICENSE trong thư mục gốc hoặc liên hệ chủ dự án để biết chi tiết.
-
-**Liên hệ**
-- Nếu cần hỗ trợ hoặc ghi nhận lỗi, hãy mở issue trên repository hoặc liên hệ qua email của dự án.
-
+**Giao diện ứng dụng**
+![alt text](/desktop/results/1.png)
+![alt text](/desktop/results/2.png)
+![alt text](/desktop/results/3.png)
+![alt text](/desktop/results/4.png)
+![alt text](/desktop/results/5.png)
+![alt text](/desktop/results/6.png)
+![alt text](/desktop/results/7.png)
+![alt text](/desktop/results/8.png)
+![alt text](/desktop/results/9.png)
+![alt text](/desktop/results/10.png)
 ---
 Phiên bản README: cập nhật bởi nhóm phát triển.
